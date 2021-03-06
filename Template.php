@@ -57,6 +57,7 @@ function finalizeTopSection() {
 	$returnVal = "";
 	$returnVal .= "<!doctype html>\n";
 	$returnVal .= "<html lang=\"en\">\n";
+	$returnVal .= "<link rel='stylesheet' href='style.css'>";
 	$returnVal .= "<head><title>";
 	$returnVal .= $this->_title;
 	$returnVal .= "</title>\n";
